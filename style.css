@@ -1,0 +1,58 @@
+table{
+    width:100%;
+    color: #fff;
+    text-align: center;
+    border-collapse: separate;
+    font: normal 3em Arial, Helvetica, sans-serif;
+}
+
+tr{
+    height: 16.02vh;
+    background-color: #4e494d;
+}
+
+td{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 22px;
+    user-select: none;
+    transition: background-color 0.2s, transform 0.1s;
+    touch-action: manipulation;
+    width: 25vw;
+    border: 1px solid #4e494d
+}
+
+td:active{
+    background-color: #555;
+    transform: scale(0.95);
+}
+
+#inputBox{
+    background-color: #4e494d;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
+}
+
+.digitButton{
+    background-color: #807e80;
+}
+
+.operatorButton{
+    background-color: #ff9e06;
+}
+
+.ACButton{
+    background-color: #656165;
+}
+
+@media (max-width: 400px){
+    td{
+        font-size: 1.2em;
+        padding: 16px;
+    }
+}
